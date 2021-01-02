@@ -27,15 +27,15 @@ strong {
 }
 
 .logo {
-    background-image: url(https://lh3.googleusercontent.com/proxy/9P5ieg_pBA1DrfyC7gY46VnqmGvVfcmV2hGzfYF5ZHr42vYpJ4g0Q-sS7OyAGQYknMs11yrWqUZpp8JxBrwQ22vsyQk8UQYr__RFVAnQ);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 350px auto;
+    background-size: 200px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 60%;
+    grid-template-columns: 325px 300px;
+    align-self: center;
+    width: 54.6rem;
     margin: 20px auto;
-    box-sizing: content-box;
 }
 
 a {
@@ -56,15 +56,16 @@ p {
 }
 
 .box {
-    margin: 15px;
+    margin: 12px;
+    width: 120px;
 }
 
 .box1, .box9 {
-    margin-left: 150px;
+    margin-left: 75px;
 }
 
-.box2, .box10 {
-    margin-right: 150px;
+.box6 {
+    margin-left: 65px;
 }
 
 .box3, .box7 {
@@ -72,6 +73,42 @@ p {
 }
 
 .box4, .box8 {
-    margin-right: 30px;
+    margin-left: 55px;
 }
 
+/* Comienza buscador */
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+    width: 460px;
+    height: 45px;
+    margin: 5px auto;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 1px #fff;
+}
+
+.search:hover {
+    border: 2px solid #3366cc;
+}
+
+.search-input {
+    width: 70%;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+}
+
+.search__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 45px;
+    background-color: #3366cc;
+}

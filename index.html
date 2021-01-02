@@ -77,24 +77,27 @@
 <!--Fin de botonora principal-->
 
 <!--Comienza buscador de artículos-->
-        <div>
-            <input type="text">
-            <label for="searchLanguage"></label>
-            <select id="searchLanguage" name="language">
-                <option value="ar" lang="ar">Argentina</option>
-                <option value="en" lang="en" selected="selected">English</option>
-                <option value="pr" lang="pr">Portugues</option>
-                <option value="fr" lang="fr">Français</option>
-                <option value="de" lang="de">Deutsch</option>
-                <option value="it" lang="it">Italiano</option>
-            </select>
+        <div class="search">
+            <input class="search-input" type="text">
+            <div>
+                <label for="searchLanguage"></label>
+                <select id="searchLanguage" name="language">
+                    <option value="ar" lang="ar">Argentina</option>
+                    <option value="en" lang="en" selected="selected">English</option>
+                    <option value="pr" lang="pr">Portugues</option>
+                    <option value="fr" lang="fr">Français</option>
+                    <option value="de" lang="de">Deutsch</option>
+                    <option value="it" lang="it">Italiano</option>
+                </select>
+            </div>
             <button type="submit">
             </button>
+            <div class="search__icon"><img src="https://img.icons8.com/fluent-systems-filled/24/ffffff/search.png"/></div>
         </div>
 <!--Fin del buscador de articulos-->
 
 <!--Comienzo de barra "Leer en tu idioma..."-->
-        <div>
+        <div class="button">
             <button>
                 <div></div>
                 <p>Leer Wikipedia en tu idioma</p>
