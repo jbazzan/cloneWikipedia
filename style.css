@@ -112,3 +112,60 @@ p {
     height: 45px;
     background-color: #3366cc;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.button_line {
+    width: 8%;
+    height: 1px;
+    border-bottom: 1px solid grey;
+}
+
+.button_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    min-width: 250px;
+    height: 35px;
+    border: 1px solid grey;
+    margin: 0 15px;
+}
+
+.button__arrow {
+    background-image: url('https://img.icons8.com/officexs/16/4a90e2/expand-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+}
+
+.button__idioma {
+    background-image: url('https://img.icons8.com/office/16/000000/translation.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+}
+
+.button__text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3366cc;
+    margin: 0 10px;
+}
